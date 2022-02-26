@@ -7,6 +7,7 @@ IFS=$'\n\t'
 # xcode-select --install
 
 SUDO_USER=$(whoami)
+sudo -v
 
 # Check for Homebrew, install if not installed
 if test ! $(which brew); then
