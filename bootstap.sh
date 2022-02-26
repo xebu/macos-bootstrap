@@ -4,7 +4,7 @@
 set -euo pipefail
 IFS=$'\n\t'
 
-xcode-select --install
+# xcode-select --install
 
 SUDO_USER=$(whoami)
 
